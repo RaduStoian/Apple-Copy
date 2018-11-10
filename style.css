@@ -1,0 +1,1284 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: white;
+    font-size: 17px;
+    font-family: sans-serif
+}
+
+
+/*NAVIGATION------------------*/
+
+
+#wrapper{
+    text-align: center;
+   
+}
+
+
+
+nav { position: fixed;
+    z-index: 999;
+    width:100%;
+    height:44px;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.85);
+}
+
+
+ nav ul{
+    
+    list-style-type: none;
+     width:975px;
+    margin: 0px auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+     
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+    margin:0px auto;
+    text-align: center;
+    
+    
+
+}
+
+nav ul li a{
+    color: hsla(0, 0%, 100%, 0.90);
+    font-size: 0.86rem;
+    width:60px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 15px;
+    transition: color: hsla(0, 0%, 70%, 0.90);
+    transition-duration: 0.2s;
+    position: relative;
+    left: 35px;
+    
+}
+ nav ul li a:hover {
+    color: hsla(0, 0%, 70%, 0.90);
+     
+}
+
+.appshow {
+    margin-top: -6px;
+}
+/*NAVIGATION------------------*/
+
+
+#showcase {
+background-color:black;
+background-image:url(https://cdn.cultofmac.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-27-at-2.58.29-PM-780x474.jpg);
+background-position: bottom left;
+background-repeat: no-repeat;   
+height:736px;
+background-size: 800px;
+    margin-bottom: 12px;
+}
+
+
+/*Showcase 1------------------*/
+#showcase h1, #showcase h3 {
+    color: hsla(0, 0%, 100%, 1);;
+    font-weight: 100;
+    position: relative;
+    top:100px;
+}
+#showcase h1 {
+    font-size: 3rem;
+    
+}
+
+#showcase h3 {
+    font-size: 1.7rem;
+}
+
+#showcase a {
+    position: relative;
+    top:120px;
+    color:deepskyblue;
+    font-weight: 500;
+    text-decoration: none;
+    font-size:1.3rem;
+    margin: 14px;
+}
+
+
+
+/*Showcase 2------------------*/
+
+
+#showcase2 {
+background-color:black;
+background-image:url(https://9to5mac.com/wp-content/uploads/sites/6/2019/09/iPhone-XS-Max1.png?w=1000);
+background-position: center 110px;
+background-repeat: no-repeat;   
+height:690px;
+background-size: 1060px;
+    margin-bottom: 12px;
+}
+
+
+#showcase2 h1, #showcase2 h3 {
+    color: white;
+    font-weight: 100;
+    position: relative;
+    top:50px;
+}
+#showcase2 h1 {
+    font-size: 2.7rem;
+    
+}
+
+#showcase2 h3 {
+    font-size: 1.6rem;
+     position: relative;
+    top:60px;
+}
+
+#showcase2 a {
+    position: relative;
+    top:70px;
+    color:deepskyblue;
+    font-weight: 500;
+    text-decoration: none;
+    font-size:1.3rem;
+    margin:15px;
+}
+
+/*Watch Section------------------*/
+/*1------------------*/
+#watch-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height:700px;
+    margin-bottom: 11px;
+    margin-left:12px;
+    margin-right: 12px;
+   
+    
+}
+
+
+#watch1 {
+    text-align:center;
+   background-color:#fafafa;
+    line-height: 2.6rem;
+    margin-right: 5px;
+    
+    
+}
+
+
+#watch1 h2 {
+    font-size: 2.8rem;
+    position:relative;
+        left:20px;
+}
+#apple-logo-1 {
+    position: relative;
+    top: 50px;
+    right:85px;
+    
+}
+
+
+#watch1 h3 {
+    font-size: 1.3rem;
+    color: darkred;
+    font-weight: 600;
+    
+}
+#watch1 h4 {
+    font-size: 1.55rem;
+  
+    font-weight: 100;
+    
+}
+
+#watch1 a{
+    text-decoration: none;
+    color:rgb(50,100,255);
+    font-weight: 100;
+    font-size: 1.25rem;
+        margin:14px;
+}
+#text-center1 {
+    position: relative;
+    top:260px;
+}
+/*2------------------*/
+
+
+#watch2 {
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 5px;
+   
+   
+}
+#watch2 img{
+  height:900px;
+    width: auto;
+    position: relative;
+    top: -100px;
+    left: -100px;
+    z-index: -10;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*APPLE COLUMNS------------------*/
+
+#apple-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height:580px;
+    margin-bottom: 11px;
+     margin-left:12px;
+    margin-right: 12px;
+}
+
+/* 1------------------*/
+#apple1 {
+    text-align:center;
+    
+    line-height: 3rem;
+    background-color:#fff;
+    margin-right: 5px;
+
+}
+#apple1 img{
+  height:360px;
+    width: auto;
+    position: relative;
+    top: 0px;
+    z-index: 0;
+    
+}
+#apple1 h2 {
+    font-size: 2.3rem;
+    padding-top: 40px;
+}
+
+
+#apple1 h4 {
+    font-size: 1.3rem;
+  line-height: 1.7rem;
+    font-weight: 100;
+    
+}
+
+#text-center2 {
+    position: relative;
+    top:20px;
+}
+/*2------------------*/
+
+
+#apple2 {
+    overflow: hidden;
+    margin-right: 0px;
+    background-color:#fafafa;
+    margin-left: 5px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4667/as-images.apple.com/is/image/AppleInc/aos/published/images/d/ai/daisy/environment/daisy-environment-giveback-201804?wid=1440&hei=997&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1533681205667);
+    background-size: 800px;
+    background-position: center 200px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-image: 
+    
+    
+}
+#apple2 img{
+  height:220px;
+    width: auto;
+    position: relative;
+    top: 150px;
+    z-index: 0;
+    
+}
+
+   #apple2 h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0px;
+}
+
+
+#apple2 h4 {
+    font-size: 1.24rem;
+  margin-bottom: 8px;
+    font-weight: 100;
+    
+}
+
+#apple2 a{
+    text-decoration: none;
+    color:rgb(50,100,255);
+    font-weight: 100;
+    font-size: 1.rem;
+        
+}
+
+#text-center3 {
+    position: relative;
+    top:62px;
+}
+
+
+
+/*Music and Airpods COLUMNS------------------*/
+
+#music-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height:580px;
+    margin-bottom: 11px;
+     margin-left:12px;
+    margin-right: 12px;
+}
+
+/* 1------------------*/
+#music1 {
+    text-align:center;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.3);;
+    line-height: 2.2rem;
+    background-color:#fff;
+    background-image: url(https://i0.wp.com/klikhomedesign.com/wp-content/uploads/2018/07/apple-music-room-wallpaper-1366x768-best-of-apple-music-colors-blur-5k-wallpapers-hd-wallpapers-of-apple-music-room-wallpaper-1366x768.jpg?fit=5120%2C2880&ssl=1);
+    background-position:center left;
+    background-repeat: no-repeat;
+    background-size: 1100px;
+        margin-right:5px;
+
+}
+#music1 img{
+  height:360px;
+    width: auto;
+    position: relative;
+    top: 0px;
+    z-index: 0;
+    
+}
+#music1 h2 {
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 40px;
+    position:relative;
+    left:20px;
+}
+
+#apple-logo-2 {
+    color:white;
+    position:relative;
+        top:79px;
+    right:45px;
+}
+
+#music1 h4 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+    #music1 a{
+        color: white;
+    text-decoration: none;
+   
+    font-weight: 100;
+    font-size: 1.rem;
+    padding:0px 10px;
+    
+}
+
+#music-center1 {
+    position: relative;
+   
+}
+/*2------------------*/
+
+
+#music2 {
+    overflow: hidden;
+    margin-right: 0px;
+    background-color:#fff;
+    margin-left: 5px;
+    background-image: url(https://johnlewis.scene7.com/is/image/JohnLewis/236542484alt2?$rsp-pdp-port-1440$);
+    background-position: center -40px;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    
+}
+#music2 img{
+  height:220px;
+    width: auto;
+    position: relative;
+    top: 150px;
+    z-index: 0;
+    
+}
+
+   #music2 h2 {
+    font-size: 2.2rem;
+       margin-bottom: 5px;
+   
+}
+
+
+#music2 h4 {
+    font-size: 1.24rem;
+    font-weight: 100;
+    margin-bottom: 7px;
+    
+}
+
+#music2 a{
+    text-decoration: none;
+    color:rgb(50,100,255);
+    font-weight: 100;
+    font-size: 1.rem;
+    padding: 0px 10px;
+    margin-top: -10px;
+        
+}
+
+#music-center2 {
+    position: relative;
+    top:57px;
+}
+
+
+
+
+
+
+
+
+/*Macbook Pro and iPad COLUMNS------------------*/
+
+#mac-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height:580px;
+    margin-bottom: 11px;
+     margin-left:12px;
+    margin-right: 12px;
+}
+
+/* 1------------------*/
+#mac1 {
+    text-align:center;
+    
+    line-height: 2.2rem;
+    background-color:#fff;
+    background-image: url(https://images.unsplash.com/photo-1520275126937-9506f7dd123c?ixlib=rb-0.3.5&s=0763c1d519d7c24d76d85e2eb8685362&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb);
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+        margin-right:5px;
+
+}
+#mac1 img{
+  height:360px;
+    width: auto;
+    position: relative;
+    top: 0px;
+    z-index: 0;
+    
+}
+#mac1 h2 {
+    color: white;
+    font-size: 2.0rem;
+    padding-top: 40px;
+}
+
+
+#mac1 h4 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+    #mac1 a{
+        color: deepskyblue;
+    text-decoration: none;
+   
+    font-weight: 100;
+    font-size: 1.rem;
+    padding:0px 10px;
+    
+}
+
+#mac-center1 {
+    position: relative;
+    top:10px;
+}
+/*2------------------*/
+
+
+#mac2 {
+    overflow: hidden;
+    margin-right: 0px;
+    background-color:#f9f9f9;
+    margin-left: 5px;
+    background-image: url(https://media.wired.com/photos/59e94fb106a2232e82ba9bd9/master/w_2312,c_limit/iPad_TA.jpg);
+    background-position: center 150px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    
+}
+#mac2 img{
+  height:220px;
+    width: auto;
+    position: relative;
+    top: 150px;
+    z-index: 0;
+    
+}
+
+   #mac2 h2 {
+    font-size: 2.2rem;
+       margin-bottom: 5px;
+   
+}
+
+
+#mac2 h4 {
+    font-size: 1.24rem;
+    font-weight: 100;
+    margin-bottom: 7px;
+    
+}
+
+#mac2 a{
+    text-decoration: none;
+    color:rgb(50,100,255);
+    font-weight: 100;
+    font-size: 1.rem;
+    padding: 0px 10px;
+    margin-top: -10px;
+        
+}
+
+#mac-center2 {
+    position: relative;
+    top:47px;
+}
+
+
+
+
+/* ------------------FOOTER-------------------------------*/
+
+
+footer {
+      width: 85%;
+    max-width: 1000px;
+    padding: 20px 40px;
+    text-align: left;
+    font-size: 0.75rem;
+    background-color: hsla(0, 0%, 95%, 1);
+    color: hsla(0, 0%, 59%, 1);
+    margin:0px auto;
+}
+#footer-container{
+    background-color: hsla(0, 0%, 95%, 1);
+    width:100%
+}
+
+#footer-grid {
+    display:grid;
+    grid-template-columns: repeat(5,1fr)
+}
+
+
+footer h4{
+    color:hsla(0, 0%, 30%, 1);
+    margin-top: 17px;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 24px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 11px;
+    color:hsla(0, 0%, 49%, 1);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-p-2 a {
+    color:hsla(200, 80%, 41%, 1);
+}
+
+footer hr{
+    opacity: 0.4;
+}
+
+#footer-p-1 {
+    margin-bottom: 17px;
+}
+
+
+#footer-p-2 {
+    margin-bottom: 10px;
+    
+}
+
+#footer-p-3 {
+    margin-bottom: 17px;
+    margin-top:10px;
+}
+
+
+
+/* ------------------------NAVIGATION FOR MOBILE ----------------------------*/
+
+#show {
+    display: none;
+}
+
+
+#dropdown {
+    display: none;
+    position: fixed;
+    top: 44px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    z-index: 9999;
+    background-color:hsla(0, 0%, 0%, 0.85);
+    width:100%;
+    height:100%;
+    
+}
+
+#show ul li{
+    
+    margin: 0px;
+    padding: 0px;
+    float: none;
+  
+   
+}
+#show ul li a{
+    text-align: left;
+    width:86%;
+    font-size: 1rem;
+    margin: 0px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0px;
+    float: none;
+    display:block;
+    line-height: 50px;
+}
+
+#show ul li a hr{
+    opacity: 0.2;
+    border:none;
+    background-color: white;
+    color:white;
+    height:1px;
+}
+
+#show ul li hr{
+    opacity: 0.2;
+    border:none;
+    color: white;
+    background-color: white;
+    height:1px;
+}
+
+li input {
+    width:86%;
+    height:35px;
+    border-radius:5px;
+    background-color: hsla(0, 0%, 15%, 1);
+    border: 0;
+    margin-left: 15px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 1.1rem;
+ color: hsla(0, 0%, 60%, 1);
+    font-weight: 100;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 1.1rem;
+ color: hsla(0, 0%, 60%, 1);
+    font-weight: 100;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 1.1rem;
+ color: hsla(0, 0%, 60%, 1);
+    font-weight: 100;
+}
+:-moz-placeholder { /* Firefox 18- */
+   font-size: 1.1rem;
+ color: hsla(0, 0%, 60%, 1);
+    font-weight: 100;
+}
+
+
+#dropdown.active{
+display:block;
+}
+
+    .show {
+        display:none;
+}
+/*------------------MOBILE FOOTER ------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*------------------MOBILE FOOTER ------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------MEDIA QUERIES ------------------------------------------------*/
+
+/* 768 
+- collapse nav
+- change Footer into multiple drop menus */
+
+
+
+/* 736 
+- Collapse Sections
+- 1 column only  
+- apple watch columns on one column            */
+
+@media only screen and (max-width:1000px) {
+    
+    nav ul li a {
+        padding-left: 1vw;
+        padding-right:1vw;
+        left:70px;
+        
+    }
+    
+    
+    
+}
+@media only screen and (max-width:950px) {
+    
+    nav ul li a {
+        padding-left: 1vw;
+        padding-right:1vw;
+        left:60px;
+        
+    }
+    
+    
+    
+}
+@media only screen and (max-width:900px) {
+    
+    nav ul li a {
+        padding-left: 1vw;
+        padding-right:1vw;
+        left:40px;
+        
+    }
+    
+    
+    
+}
+@media only screen and (max-width:850px) {
+    
+    nav ul li a {
+        padding-left: 1vw;
+        padding-right:1vw;
+        left:30px;
+        
+    }
+    
+    
+    
+}
+@media only screen and (max-width:800px) {
+    
+    nav ul li a {
+        padding-left: 1vw;
+        padding-right:1vw;
+        left:10px;
+        
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width:768px) {
+    
+    .hide {
+        display: none;
+    }
+    
+    #show {
+        display: block;
+        cursor: pointer;
+    }
+    nav ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:33vw;
+    }
+    .appshow {
+        margin-right:33vw;
+        margin-top: -6px;
+    }
+    
+    
+    #footer-grid {
+        grid-template-columns: 1fr;
+        width:100%;
+        
+        
+    }
+    .show {
+        display:block;
+        
+    }
+    footer ul {
+        display:none;
+    }
+    
+    #footer-grid hr {
+        margin-bottom: -8px;
+    } 
+    
+    #footer-container{
+        width:100%;
+         padding: 0px;
+        margin: 0px;
+    }
+    footer {
+        width:95%;
+        padding: 0px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    
+    
+    footer h4 {
+        display:block;
+        cursor: pointer;
+        padding:0px 3px;
+        height:25px;
+        font-weight: 100;
+    }
+    
+    
+}
+
+@media only screen and (max-width:700px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:32vw;
+    }
+    .appshow {
+        margin-right:32vw;
+    }
+}
+@media only screen and (max-width:650px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:31vw;
+    }
+    .appshow {
+        margin-right:31vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:29vw;
+    }
+    .appshow {
+        margin-right:29vw;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:27vw;
+    }
+    .appshow {
+        margin-right:27vw;
+    }
+}
+@media only screen and (max-width:500px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:25vw;
+    }
+    .appshow {
+        margin-right:25vw;
+    }
+}
+@media only screen and (max-width:450px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:23vw;
+    }
+    .appshow {
+        margin-right:23vw;
+    }
+}
+@media only screen and (max-width:400px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:20vw;
+    }
+    .appshow {
+        margin-right:20vw;
+    }
+}
+@media only screen and (max-width:350px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:16vw;
+    }
+    .appshow {
+        margin-right:16vw;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    
+  
+    #show {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:11vw;
+    }
+    .appshow {
+        margin-right:11vw;
+    }
+}
+@media only screen and (max-width:736px) {
+    
+        
+    #showcase{
+        height: 548px;
+        background-size: 500px;
+    }
+        #showcase h1{
+            font-size:2rem;
+            
+        }
+     #showcase h3{
+            font-size:1.2rem;
+         margin-bottom: -10px;
+            
+        }
+     #showcase a{
+            font-size:1.1rem;
+            
+        }
+    
+    
+      #showcase2{
+        height: 500px;
+        background-size: 500px;
+          background-position: center 200px;
+    }
+        #showcase2 h1{
+            font-size:2rem;
+            
+        }
+     #showcase2 h3{
+            font-size:1.2rem;
+         margin-bottom: 0px;
+            
+        }
+     #showcase2 a{
+            font-size:1.1rem;
+            
+        }
+    
+    
+    
+    
+    
+    #watch-section {
+    display: grid;
+    grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-right: 0px;
+        height:500px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+        
+    #watch2 {
+        display:none;
+    }
+
+
+    #watch1{
+    background-image:url(https://cdn.shopify.com/s/files/1/0131/4552/products/straight-white_1024x1024.png?v=1475199928);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+         margin-left:0px;
+    margin-right:0px;
+        
+}
+
+#watch1 h2{
+    font-size:2.5rem;
+        
+}
+#watch1 h3{
+    font-size:1rem;
+    position:relative;
+    bottom: 10px;
+        
+}
+#watch1 h4{
+    font-size:1.4rem;
+    position:relative;
+    bottom: 18px;
+        
+}
+#watch1 a{
+    font-size:1.14rem;
+    position:relative;
+    bottom: 25px;
+        
+}
+    #text-center1 {
+    position: relative;
+    top:-30px;
+}
+    /* APPLE SECTION */  /* APPLE SECTION */  /* APPLE SECTION */  /* APPLE SECTION */
+ #apple1 {
+        height:130px;
+     margin-left:0px;
+    margin-right:0px;
+    }
+    #apple1 img{
+        height:300px;
+    }
+    #apple1 h2{
+        font-size: 2rem;
+    }
+     #apple1 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+    
+   
+   
+    #apple2 h2{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: -12px;
+    }
+
+    
+#apple-section{
+    display: grid;
+        grid-template-columns: auto;
+    width:100%;
+    height:1000px;
+    margin-left:0px;
+    margin-right:0px;
+  
+   
+   
+}
+    
+    
+/*Music Section*//*Music Section*//*Music Section*//*Music Section*//*Music Section*//*Music Section*/
+
+ #music1 {
+        height:500px;
+    margin-right: 0px;
+     
+    }
+    #music1 img{
+        height:300px;
+    }
+    #music1 h2{
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+     #music1 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+    
+       #music-center1 {
+        top:-20px;
+    }
+   
+    #music2 {
+        height:500px;
+        background-position: center -70px;
+       margin-left: 0px;
+    }
+    #music2 h2{
+        font-size: 1.9rem;
+        font-weight: 600;
+        margin-top: -12px;
+    }
+       #music2 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+
+    #music-center2 {
+        top:60px;
+    }
+    
+#music-section{
+    display: grid;
+        grid-template-columns: auto;
+    width:100%;
+    height:1010px;
+    margin-left:0px;
+    margin-right:0px;
+   
+   
+   
+}
+    
+    
+    
+    /* MACBOOK AND IPAD SECTION*/ /* MACBOOK AND IPAD SECTION*/ /* MACBOOK AND IPAD SECTION*/
+    
+    
+     #mac1 {
+        height:500px;
+         margin-right: 0px;
+         margin-bottom: 12px;
+     
+    }
+    #mac1 img{
+        height:300px;
+    }
+    #mac1 h2{
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+     #mac1 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+    
+       #mac-center1 {
+        top:-20px;
+    }
+   
+    #mac2 {
+        height:500px;
+        background-position: center 140px;
+        margin-left: 0px;
+        margin-bottom: px;
+        margin-right:0px;
+    }
+    #mac2 h2{
+        font-size: 1.9rem;
+        font-weight: 600;
+        margin-top: -12px;
+    }
+       #mac2 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+
+    #mac-center2 {
+        top:60px;
+    }
+    
+#mac-section{
+    display: grid;
+        grid-template-columns: auto;
+    width:100%;
+    height:1010px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom: 12px;
+   
+   
+}
+    
+    
+    
+    
+    
+    
+    
+    
+
+}/*------------------END OF MEDIA QUERIES ------------------------------------------------*/
