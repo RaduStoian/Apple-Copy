@@ -865,7 +865,7 @@ display:block;
         margin-right:33vw;
     }
     .appshow {
-        margin-right:33vw;
+        margin-right:32vw;
         margin-top: -6px;
     }
     
@@ -912,6 +912,271 @@ display:block;
     
     
 }
+
+@media only screen and (max-width:736px) {
+    
+
+    #showcase{
+        height: 548px;
+        background-size: 500px;
+      
+    }                       
+        #showcase h1{
+            font-size:2rem;
+            
+        }
+     #showcase h3{
+            font-size:1.2rem;
+         margin-bottom: -10px;
+            
+        }
+     #showcase a{
+            font-size:1.1rem;
+            
+        }
+    
+    
+      #showcase2{
+        height: 500px;
+        background-size: 500px;
+          background-position: center 200px;
+        
+    }
+        #showcase2 h1{
+            font-size:2rem;
+            
+        }
+     #showcase2 h3{
+            font-size:1.2rem;
+         margin-bottom: 0px;
+            
+        }
+     #showcase2 a{
+            font-size:1.1rem;
+            
+        }
+
+    
+   #watch-section {
+    display: block;
+    grid-template-columns: 1fr;
+        height:500px;
+        width:100%;
+        margin:0px;
+        margin-bottom:12px;
+        overflow: hidden;
+        
+    }
+      
+    #watch2 {
+        display:none;
+       
+    }
+
+
+    #watch1{
+    background-image:url(https://cdn.shopify.com/s/files/1/0131/4552/products/straight-white_1024x1024.png?v=1475199928);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    height:500px;
+    width:100%;
+
+        
+}
+
+#watch1 h2{
+    font-size:2.5rem;
+        
+}
+#watch1 h3{
+    font-size:1rem;
+    position:relative;
+    bottom: 10px;
+        
+}
+#watch1 h4{
+    font-size:1.4rem;
+    position:relative;
+    bottom: 18px;
+        
+}
+#watch1 a{
+    font-size:1.14rem;
+    position:relative;
+    bottom: 25px;
+
+        
+}
+    #text-center1 {
+    position: relative;
+    top:-30px;
+    
+} 
+    /* APPLE SECTION */  /* APPLE SECTION */  /* APPLE SECTION */  /* APPLE SECTION */
+   
+ #apple1 {
+        height:130px;
+     margin-left:0px;
+    margin-right:0px;
+    
+    }
+
+    #apple1 img{
+        height:300px;
+        
+    }
+    #apple1 h2{
+        font-size: 2rem;
+    }
+     #apple1 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+    
+   
+   
+    #apple2 h2{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: -12px;
+    }
+
+    
+#apple-section{
+    display: grid;
+        grid-template-columns: auto;
+    width:100%;
+    height:1000px;
+    margin-left:0px;
+    margin-right:0px;
+  
+  
+   
+   
+}
+    
+    
+/*Music Section*//*Music Section*//*Music Section*//*Music Section*//*Music Section*//*Music Section*/
+
+ #music1 {
+        height:450px;
+    margin-right: 0px;
+   
+     
+    }
+    #music1 img{
+        height:300px;
+    }
+    #music1 h2{
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+     #music1 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+    
+       #music-center1 {
+        top:-20px;
+    }
+   
+    #music2 {
+        height:500px;
+        background-position: center -70px;
+       margin-left: 0px;
+    
+    }
+    #music2 h2{
+        font-size: 1.9rem;
+        font-weight: 600;
+        margin-top: -12px;
+    }
+       #music2 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+
+    #music-center2 {
+        top:60px;
+    }
+    
+#music-section{
+    display: block;
+    height:1010px;
+   width:100%;
+   margin-left:0px;
+   margin-right:0px;
+   overflow: hidden;
+  
+  
+   
+   
+   
+}
+    
+    
+    
+    /* MACBOOK AND IPAD SECTION*/ /* MACBOOK AND IPAD SECTION*/ /* MACBOOK AND IPAD SECTION*/
+    
+    
+     #mac1 {
+        height:500px;
+         margin-right: 0px;
+         margin-bottom: 12px;
+       
+    }
+    #mac1 img{
+        height:300px;
+    }
+    #mac1 h2{
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+     #mac1 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+    
+       #mac-center1 {
+        top:-20px;
+    }
+   
+    #mac2 {
+        height:500px;
+        background-position: center 140px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right:0px;
+    }
+    #mac2 h2{
+        font-size: 1.9rem;
+        font-weight: 600;
+        margin-top: -12px;
+    }
+       #mac2 h4{
+        font-size: 1.1rem;
+         line-height: 1.4rem;
+    }
+
+    #mac-center2 {
+        top:60px;
+    }
+    
+#mac-section{
+    display: grid;
+        grid-template-columns: auto;
+    width:100%;
+    height:1010px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom: 12px;
+
+   
+   
+}
+
+}    
 
 @media only screen and (max-width:700px) {
     
@@ -1024,261 +1289,4 @@ display:block;
         margin-right:11vw;
     }
 }
-@media only screen and (max-width:736px) {
-    
-        
-    #showcase{
-        height: 548px;
-        background-size: 500px;
-    }
-        #showcase h1{
-            font-size:2rem;
-            
-        }
-     #showcase h3{
-            font-size:1.2rem;
-         margin-bottom: -10px;
-            
-        }
-     #showcase a{
-            font-size:1.1rem;
-            
-        }
-    
-    
-      #showcase2{
-        height: 500px;
-        background-size: 500px;
-          background-position: center 200px;
-    }
-        #showcase2 h1{
-            font-size:2rem;
-            
-        }
-     #showcase2 h3{
-            font-size:1.2rem;
-         margin-bottom: 0px;
-            
-        }
-     #showcase2 a{
-            font-size:1.1rem;
-            
-        }
-    
-    
-    
-    
-    
-    #watch-section {
-    display: grid;
-    grid-template-columns: 1fr;
-        margin-left: 0px;
-        margin-right: 0px;
-        height:500px;
-        margin-left:0px;
-        margin-right:0px;
-    }
-        
-    #watch2 {
-        display:none;
-    }
-
-
-    #watch1{
-    background-image:url(https://cdn.shopify.com/s/files/1/0131/4552/products/straight-white_1024x1024.png?v=1475199928);
-        background-size: 400px;
-        background-repeat: no-repeat;
-        background-position: bottom center;
-         margin-left:0px;
-    margin-right:0px;
-        
-}
-
-#watch1 h2{
-    font-size:2.5rem;
-        
-}
-#watch1 h3{
-    font-size:1rem;
-    position:relative;
-    bottom: 10px;
-        
-}
-#watch1 h4{
-    font-size:1.4rem;
-    position:relative;
-    bottom: 18px;
-        
-}
-#watch1 a{
-    font-size:1.14rem;
-    position:relative;
-    bottom: 25px;
-        
-}
-    #text-center1 {
-    position: relative;
-    top:-30px;
-}
-    /* APPLE SECTION */  /* APPLE SECTION */  /* APPLE SECTION */  /* APPLE SECTION */
- #apple1 {
-        height:130px;
-     margin-left:0px;
-    margin-right:0px;
-    }
-    #apple1 img{
-        height:300px;
-    }
-    #apple1 h2{
-        font-size: 2rem;
-    }
-     #apple1 h4{
-        font-size: 1.1rem;
-         line-height: 1.4rem;
-    }
-    
-   
-   
-    #apple2 h2{
-        font-size: 2rem;
-        font-weight: 600;
-        margin-top: -12px;
-    }
-
-    
-#apple-section{
-    display: grid;
-        grid-template-columns: auto;
-    width:100%;
-    height:1000px;
-    margin-left:0px;
-    margin-right:0px;
-  
-   
-   
-}
-    
-    
-/*Music Section*//*Music Section*//*Music Section*//*Music Section*//*Music Section*//*Music Section*/
-
- #music1 {
-        height:500px;
-    margin-right: 0px;
-     
-    }
-    #music1 img{
-        height:300px;
-    }
-    #music1 h2{
-        font-size: 2rem;
-        margin-bottom: 8px;
-    }
-     #music1 h4{
-        font-size: 1.1rem;
-         line-height: 1.4rem;
-    }
-    
-       #music-center1 {
-        top:-20px;
-    }
-   
-    #music2 {
-        height:500px;
-        background-position: center -70px;
-       margin-left: 0px;
-    }
-    #music2 h2{
-        font-size: 1.9rem;
-        font-weight: 600;
-        margin-top: -12px;
-    }
-       #music2 h4{
-        font-size: 1.1rem;
-         line-height: 1.4rem;
-    }
-
-    #music-center2 {
-        top:60px;
-    }
-    
-#music-section{
-    display: grid;
-        grid-template-columns: auto;
-    width:100%;
-    height:1010px;
-    margin-left:0px;
-    margin-right:0px;
-   
-   
-   
-}
-    
-    
-    
-    /* MACBOOK AND IPAD SECTION*/ /* MACBOOK AND IPAD SECTION*/ /* MACBOOK AND IPAD SECTION*/
-    
-    
-     #mac1 {
-        height:500px;
-         margin-right: 0px;
-         margin-bottom: 12px;
-     
-    }
-    #mac1 img{
-        height:300px;
-    }
-    #mac1 h2{
-        font-size: 2rem;
-        margin-bottom: 8px;
-    }
-     #mac1 h4{
-        font-size: 1.1rem;
-         line-height: 1.4rem;
-    }
-    
-       #mac-center1 {
-        top:-20px;
-    }
-   
-    #mac2 {
-        height:500px;
-        background-position: center 140px;
-        margin-left: 0px;
-        margin-bottom: px;
-        margin-right:0px;
-    }
-    #mac2 h2{
-        font-size: 1.9rem;
-        font-weight: 600;
-        margin-top: -12px;
-    }
-       #mac2 h4{
-        font-size: 1.1rem;
-         line-height: 1.4rem;
-    }
-
-    #mac-center2 {
-        top:60px;
-    }
-    
-#mac-section{
-    display: grid;
-        grid-template-columns: auto;
-    width:100%;
-    height:1010px;
-    margin-left:0px;
-    margin-right:0px;
-    margin-bottom: 12px;
-   
-   
-}
-    
-    
-    
-    
-    
-    
-    
-    
-
-}/*------------------END OF MEDIA QUERIES ------------------------------------------------*/
+/*------------------END OF MEDIA QUERIES ------------------------------------------------*/
